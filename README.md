@@ -29,6 +29,12 @@ use the git commands
 7. git commit -m "you updated msg"
 8. git push origin <branch gokul or guru>
 
+//merge the branches cmds:
+
+1. git checkout <yourbranch>
+2. git merge main
+3. git push origin <your branch>
+
 then go to the git hub and give the pull request to me .
 
 i will see and accept the request.
