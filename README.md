@@ -35,6 +35,12 @@ use the git commands
 2. git merge main
 3. git push origin <your branch>
 
+//if you completed your task then use this cmd to push to main
+
+1. git checkout main
+2. git merge Guru-Prasath
+3. git push origin main
+
 then go to the git hub and give the pull request to me .
 
 i will see and accept the request.
