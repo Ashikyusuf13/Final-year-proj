@@ -32,3 +32,5 @@ use the git commands
 then go to the git hub and give the pull request to me .
 
 i will see and accept the request.
+
+study the git commands from the youtube
