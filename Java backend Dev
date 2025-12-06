@@ -1,0 +1,43 @@
+# Tasks
+
+Project Name: JWT-Based User Authentication System
+📝 Project Description 
+
+Build a backend application in Java using Spring Boot where users can register and log in using email + password. Authentication will be done using JWT tokens, and only authenticated users can access protected endpoints.
+
+This is a compact but professional-looking project, ideal for a resume and GitHub portfolio.
+
+🔧 Tech Stack
+Feature	Tools
+Backend	Java + Spring Boot
+Authentication	JWT
+ORM / DB	Hibernate + MySQL
+Password Security	BCrypt hashing
+Testing & Docs	Postman + Swagger UI
+
+🔥 Core Features (only essentials)
+✔ Register user
+✔ Login user
+✔ Hash password before saving
+✔ Generate JWT token on login
+✔ Protected route that only token holders can access
+
+
+
+Your Role – Java Backend:(step by step)
+
+Create a Spring Boot project
+
+Create User entity + connect to MySQL
+
+Implement Register API with password hashing using BCrypt
+
+Implement Login API → verify password → generate JWT token
+
+Create Authentication Filter for validating JWT
+
+Add /profile endpoint that requires auth token
+
+Test everything using Postman
+
+Push to GitHub with proper README
