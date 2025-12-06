@@ -1,0 +1,52 @@
+# Tasks
+
+Hi — you need to  build a Sales Insights Dashboard project. Your task: find or create a retail sales dataset, clean and preprocess it, do exploratory data analysis to extract sales trends and KPIs, then build an interactive dashboard (Excel / Power BI / Tableau / Streamlit) that supports filtering by region, category, and month. Deliverables: cleaned dataset (CSV), analysis notebook (Jupyter/Colab), dashboard files or link, and a short findings report (PDF or Markdown). Post your work to the repo under /data-analytics
+
+use tool like power bi, excel,python,tabalue, etc...
+
+
+folder structure  must like this only in your branch.
+
+/data-analytics
+  /data
+    raw_sales.csv
+    clean_sales.csv
+    schema.md
+  /notebooks
+    01_cleaning.ipynb
+    02_eda.ipynb
+  /analysis
+    kpis.md
+  /dashboard
+    app.py  (or .pbix / .twbx)
+    requirements.txt
+  /report
+    insights.md
+    slides.pdf
+  README.md
+
+step by step process:
+
+Put raw dataset as data/raw_sales.csv and data/schema.md.
+
+Clean data & save data/clean_sales.csv and notebooks/01_cleaning.ipynb.
+
+Do EDA in notebooks/02_eda.ipynb (include short interpretation text for every chart).
+
+Create dashboard under /dashboard (Power BI file or Streamlit app.py) with filters for Region, Category, Month.
+
+Add analysis/kpis.md and report/insights.md (6 bullet insights + 3 recommendations).
+
+Create presentation/slides.pdf with 6 slides (Problem → Data → Key Metrics → Visuals → Insights → Next steps).
+Push to GitHub and tell me the link. If you prefer, upload a zip. Ping me whenever you finish a milestone and I’ll review.
+
+
+
+
+links for dataset:
+
+1. https://excelx.com/practice-data/sales-retail/?utm_source=chatgpt.com
+
+2. https://github.com/Seunfunmee/Retail-Sales-Data-Set
+
+3. https://rowzero.com/datasets/sample-sales-dataset?utm_source=chatgpt.com
