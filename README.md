@@ -2,6 +2,8 @@
 
 # hii i am ashik
 
+# Dont use the Source Controll tool for the CMDS
+
 this is the final year project
 1.Data Analysis
 2.Java backend Dev
